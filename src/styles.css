@@ -1,5 +1,6 @@
 @import "tailwindcss" source(none);
 @source "../src";
+@source inline("{bg-,text-,border-,ring-}{cyan,emerald,violet,amber,crimson}{,/5,/10,/15,/20,/25,/30,/40,/50,/60} text-glow-{cyan,emerald,violet,amber,crimson} hover:bg-{cyan,emerald,violet,amber,crimson}/{10,20}");
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
