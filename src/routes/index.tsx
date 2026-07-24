@@ -8,10 +8,10 @@ import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Overview — Humanity Nexus" },
+      { title: "Humanity Nexus" },
       { name: "description", content: "AI-powered global humanitarian intelligence: live signals, risk maps, and impact analytics." },
-      { property: "og:title", content: "Humanity Nexus — Global Humanitarian Intelligence" },
-      { property: "og:description", content: "The mission control for global resilience: anticipate crises, coordinate action, measure impact." },
+      { property: "og:title", content: "Humanity Nexus" },
+      { property: "og:description", content: "AI-powered global humanitarian intelligence: live signals, risk maps, and impact analytics." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

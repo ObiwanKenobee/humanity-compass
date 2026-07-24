@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Humanity Nexus" },
+      { name: "description", content: "AI-powered global humanitarian intelligence: live signals, risk maps, and impact analytics." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Humanity Nexus" },
+      { property: "og:description", content: "AI-powered global humanitarian intelligence: live signals, risk maps, and impact analytics." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Humanity Nexus" },
+      { name: "twitter:description", content: "AI-powered global humanitarian intelligence: live signals, risk maps, and impact analytics." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/db8b2aa4-dba2-491a-b526-04d52f6cf4d2" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/db8b2aa4-dba2-491a-b526-04d52f6cf4d2" },
     ],
     links: [
       {
